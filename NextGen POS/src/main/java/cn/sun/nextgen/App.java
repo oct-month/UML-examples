@@ -9,7 +9,7 @@ public class App
 {
     public static void main(String[] args)
     {
-        Store store = new Store();
+        Store store = new Store("阳光超市", "某师大");
         Register register = store.getRegister();
 
         register.makeNewSale();

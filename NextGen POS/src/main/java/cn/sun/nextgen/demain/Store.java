@@ -11,8 +11,10 @@ public class Store
     private Register register;
     private ProductCatalog catalog;
 
-    public Store()
+    public Store(String name, String address)
     {
+        this.name = name;
+        this.address = address;
         this.catalog = new ProductCatalog();
         this.register = new Register(this, catalog);
         this.completedSales = new ArrayList<>();

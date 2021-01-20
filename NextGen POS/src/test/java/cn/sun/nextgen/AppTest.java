@@ -37,7 +37,7 @@ public class AppTest extends TestCase
      */
     public void testApp()
     {
-        Store store = new Store();
+        Store store = new Store("阳光超市", "某师大");
         Register register = store.getRegister();
 
         register.makeNewSale();
@@ -48,5 +48,6 @@ public class AppTest extends TestCase
 
         Money balance = register.getCurrentSale().getBalance();
         assertEquals(balance.getAmount(), 5.5);
+        assertTrue(register.getCurrentSale().isComplete());
     }
 }

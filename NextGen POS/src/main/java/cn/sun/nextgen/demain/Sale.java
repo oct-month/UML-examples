@@ -57,6 +57,6 @@ public class Sale
 
     public boolean isComplete()
     {
-        return this.isComplete();
+        return this.isComplete;
     }
 }
