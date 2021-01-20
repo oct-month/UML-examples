@@ -8,8 +8,12 @@
 
 ### 说明
 
-- mdj文件是UML模型文件，用StarUML打开。
-- md文件是markdown语法文件，找支持markdown语法的编辑器打开即可。
+- Monopoly Game和NextGen POS目录都是maven项目的目录，使用IDE打开，推荐Vscode或者IDEA。
+
+- doc目录内是相关的文档。
+
+- mdj文件是UML模型文件，用StarUML4打开（下载地址：https://staruml.io/download/releases-v4/StarUML%20Setup%204.0.0.exe）。
+- md文件是markdown语法文件，找支持markdown语法的编辑器打开即可，推荐[Typora](https://typora.io/)。
 
 ## 关于UP（敏捷过程）
 
