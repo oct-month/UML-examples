@@ -1,5 +1,7 @@
 package cn.sun.monopoly;
 
+import cn.sun.monopoly.domain.MonopolyGame;
+import cn.sun.monopoly.domain.Player;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
@@ -32,6 +34,11 @@ public class AppTest extends TestCase
      */
     public void testApp()
     {
-        assertTrue(true);
+        MonopolyGame mGame = new MonopolyGame(new String[]{"狂含香", "力琬琰", "烟迈", "仉琪睿", "习翱"});
+        assertEquals(mGame.getPlayers().size(), 5);
+        for(Player player : mGame.getPlayers())
+        {
+            assertEquals(player.getLocation().getIndex(), 0);
+        }
     }
 }
