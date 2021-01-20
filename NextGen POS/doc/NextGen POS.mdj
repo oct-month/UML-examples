@@ -20024,9 +20024,9 @@
 														"$ref": "AAAAAAF3Ga3OGE99PPM="
 													},
 													"font": "Arial;13;0",
-													"left": 33.3330078125,
+													"left": 32.72998046875,
 													"top": 13,
-													"width": 88.55322265625,
+													"width": 84.814453125,
 													"height": 13,
 													"text": "makeNewSale"
 												},
@@ -20039,7 +20039,7 @@
 													"font": "Arial;13;1",
 													"left": 13,
 													"top": 13,
-													"width": 15.3330078125,
+													"width": 14.72998046875,
 													"height": 13,
 													"text": "sd"
 												}
@@ -20883,9 +20883,9 @@
 														"$ref": "AAAAAAF3Gb2/olod/II="
 													},
 													"font": "Arial;13;0",
-													"left": 33.3330078125,
+													"left": 32.72998046875,
 													"top": 13,
-													"width": 61.79150390625,
+													"width": 55.91357421875,
 													"height": 13,
 													"text": "enterItem"
 												},
@@ -20898,7 +20898,7 @@
 													"font": "Arial;13;1",
 													"left": 13,
 													"top": 13,
-													"width": 15.3330078125,
+													"width": 14.72998046875,
 													"height": 13,
 													"text": "sd"
 												}
@@ -23316,9 +23316,9 @@
 														"$ref": "AAAAAAF3Gc+B14pthto="
 													},
 													"font": "Arial;13;0",
-													"left": 33.3330078125,
+													"left": 32.72998046875,
 													"top": 13,
-													"width": 50.22607421875,
+													"width": 48.708984375,
 													"height": 13,
 													"text": "endSale"
 												},
@@ -23331,7 +23331,7 @@
 													"font": "Arial;13;1",
 													"left": 13,
 													"top": 13,
-													"width": 15.3330078125,
+													"width": 14.72998046875,
 													"height": 13,
 													"text": "sd"
 												}
@@ -23917,9 +23917,9 @@
 														"$ref": "AAAAAAF3GdMqBpAyRtg="
 													},
 													"font": "Arial;13;0",
-													"left": 33.3330078125,
+													"left": 32.72998046875,
 													"top": 13,
-													"width": 81.39306640625,
+													"width": 76.16259765625,
 													"height": 13,
 													"text": "Sale.getTotal"
 												},
@@ -23932,7 +23932,7 @@
 													"font": "Arial;13;1",
 													"left": 13,
 													"top": 13,
-													"width": 15.3330078125,
+													"width": 14.72998046875,
 													"height": 13,
 													"text": "sd"
 												}
@@ -26991,9 +26991,9 @@
 														"$ref": "AAAAAAF3Gk4YWh9o9Wg="
 													},
 													"font": "Arial;13;0",
-													"left": 33.3330078125,
+													"left": 32.72998046875,
 													"top": 13,
-													"width": 75.34375,
+													"width": 71.814453125,
 													"height": 13,
 													"text": "Store.create"
 												},
@@ -27006,7 +27006,7 @@
 													"font": "Arial;13;1",
 													"left": 13,
 													"top": 13,
-													"width": 15.3330078125,
+													"width": 14.72998046875,
 													"height": 13,
 													"text": "sd"
 												}
@@ -28565,15 +28565,17 @@
 													},
 													"visible": false,
 													"font": "Arial;13;0",
-													"left": 220,
+													"left": 206,
 													"top": 320,
+													"width": 28.89453125,
 													"height": 13,
 													"alpha": 0.5235987755982988,
 													"distance": 30,
 													"hostEdge": {
 														"$ref": "AAAAAAF3GlUoiyj7Koo="
 													},
-													"edgePosition": 2
+													"edgePosition": 2,
+													"text": "/ / / / "
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -28736,9 +28738,9 @@
 														"$ref": "AAAAAAF3GlUojCkGC5c="
 													},
 													"font": "Arial;13;0",
-													"left": 264.863037109375,
+													"left": 260.791015625,
 													"top": 355,
-													"width": 191.27392578125,
+													"width": 199.41796875,
 													"height": 13,
 													"alpha": 0.4182242264864695,
 													"distance": 39.395431207184416,
