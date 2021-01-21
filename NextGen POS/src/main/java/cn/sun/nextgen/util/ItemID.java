@@ -23,6 +23,9 @@ public class ItemID
     @Override
     public boolean equals(Object obj)
     {
-        return this.hashCode() == obj.hashCode();
+        if (obj instanceof ItemID)
+            return this.id == ((ItemID) obj).getId();
+        else
+            return false;
     }
 }

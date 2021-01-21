@@ -39,4 +39,13 @@ public class Money
     {
         return String.format("%.2f", this.amount) + "$";
     }
+
+    @Override
+    public boolean equals(final Object obj)
+    {
+        if (obj instanceof Money)
+            return this.amount == ((Money) obj).getAmount();
+        else
+            return false;
+    }
 }
